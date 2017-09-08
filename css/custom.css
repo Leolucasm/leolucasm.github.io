@@ -262,11 +262,11 @@ button.contact.submit:hover {
       text-transform: uppercase;
       color: white;
       border: 0;
-      background-color: #fed136;
+      background-color: var(--corPadrao);
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
     #mainNav .navbar-brand {
-      color: #fed136;
+      color: var(--corPadrao);
       font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
       #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
         color: #fec503; }
@@ -279,7 +279,7 @@ button.contact.submit:hover {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-        color: #fed136; }
+        color: var(--corPadrao);; /*#fed136*/}
   
   @media (min-width: 992px) {
     #mainNav {
