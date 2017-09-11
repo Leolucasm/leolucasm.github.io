@@ -34,3 +34,6 @@
 [0908/180242.343:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: O sistema não pode encontrar o caminho especificado. (0x3)
 [0908/180242.346:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
 [0908/180242.347:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: O sistema não pode encontrar o caminho especificado. (0x3)
+[0911/084249.770:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: O sistema não pode encontrar o caminho especificado. (0x3)
+[0911/084249.774:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0911/084249.774:ERROR:crash_report_database_win.cc(568)] CreateDirectory C:\Program Files (x86)\Gunbean\Reports\Dump: O sistema não pode encontrar o caminho especificado. (0x3)
