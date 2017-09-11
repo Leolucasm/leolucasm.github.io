@@ -1,34 +1,20 @@
-(function($) {
-  "use strict";
+(function ($) {
+    "use strict";
+    $("#telefone").mask("(99) 99999-9999");
 
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: (target.offset().top - 54)
-        }, 1000, "easeInOutExpo");
-        return false;
-      }
+    
+    $("#contatoForm").submit(function (event) {        
+        if (!validaEmail($("#email").val())) {
+            alert("Informe um email válido!");
+            $("#email").focus();
+            event.preventDefault();
+        }
+
+    });
+
+    function validaEmail(email) {
+        var regex = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+        return regex.test(email);
     }
-  });
-
-  $('.js-scroll-trigger').click(function() {
-    $('.navbar-collapse').collapse('hide');
-  });
-
-  $('body').scrollspy({
-    target: '#mainNav',
-    offset: 54
-  });
-
-  $(window).scroll(function() {
-    if ($("#mainNav").offset().top > 100) {
-      $("#mainNav").addClass("navbar-shrink");
-    } else {
-      $("#mainNav").removeClass("navbar-shrink");
-    }
-  });
 
 })(jQuery);
