@@ -1,4 +1,4 @@
-(function ($) {
+$(document).ready(function () {
   "use strict";
 
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
@@ -30,4 +30,4 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   });  
-})(jQuery);
+});

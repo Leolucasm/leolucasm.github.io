@@ -57,9 +57,11 @@
         <section id="contato">
             <div class="container card col-md-6" style="margin-top: 50px;">
                 <div class="card-body">
+                    </br>
                     <h4 class="card-title">Contato</h4>
                     <p class="card-text">Está precisando de algum serviço específico? </br>
                         Entre em contato comigo, ficarei feliz em lhe ajudar :)</p>
+                    </br>
                     <form name="enviarMensagem" id="contatoForm">
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls">
@@ -80,6 +82,25 @@
                                 <label for="telefone">Telefone</label>
                                 <input type="tel" class="form-control" placeholder="Telefone" id="telefone" required data-validation-required-message="Por favor preencha seu telefone.">
                                 <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label for="areaInteresse">Área de Interesse</label>
+                                <select class="form-control" id="areaInteresse">
+                              <option>Java</option>
+                              <option>Delphi</option>
+                              <option>C#</option>
+                              <option>Ruby on Rails</option>
+                              <option>Angular</option>
+                              <option>PHP</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label for="dataLimite">Entrega do Projeto (Data Limite)</label>
+                                <input class="form-control" type="date" id="dataLimite">
                             </div>
                         </div>
                         <div class="control-group">
