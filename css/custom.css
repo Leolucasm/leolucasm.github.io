@@ -304,3 +304,55 @@ button.contact.submit:hover {
         #mainNav.navbar-shrink .navbar-brand {
           font-size: 1.25em;
           padding: 12px 0; } }
+
+#pagesNav {
+    background-color: #222222; }
+    #pagesNav .navbar-toggler {
+        font-size: 12px;
+        right: 0;
+        padding: 13px;
+        text-transform: uppercase;
+        color: white;
+        border: 0;
+        background-color: var(--corPadrao);
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-transform: uppercase; }
+    #pagesNav .navbar-brand {
+        color: var(--corPadrao);
+        font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+        #pagesNav .navbar-brand.active, #pagesNav .navbar-brand:active, #pagesNav .navbar-brand:focus, #pagesNav .navbar-brand:hover {
+        color: #fec503; }
+    #pagesNav .navbar-nav .nav-item .nav-link {
+        font-size: 90%;
+        font-weight: 400;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: white;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        text-transform: uppercase; }
+        #pagesNav .navbar-nav .nav-item .nav-link.active, #pagesNav .navbar-nav .nav-item .nav-link:hover {
+        color: var(--corPadrao);; /*#fed136*/}
+    
+@media (min-width: 992px) {
+    #pagesNav {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+        transition: padding-top 0.3s, padding-bottom 0.3s;
+        border: none;
+        background-color: transparent; }
+        #pagesNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s; }
+        #pagesNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important; }
+        #pagesNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #222222; }
+        #pagesNav.navbar-shrink .navbar-brand {
+            font-size: 1.25em;
+            padding: 12px 0; } }          

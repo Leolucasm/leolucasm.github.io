@@ -3,7 +3,7 @@
 <html lang="pt-BR">
 
 <head>
-    <title>Leonardo Lucas - Portfólio</title>
+    <title>Portfólio | Leonardo Lucas de Melo</title>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="Leonardo" content="Sam Norton">
@@ -19,6 +19,7 @@
         rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <base="/">
 </head>
 
 <body>
@@ -26,54 +27,94 @@
     <!--wrapper start-->
     <div class="wrapper" id="wrapper">
         <!--header section-->
-        <header>
-            <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                            </button>
-                <a class="navbar-brand" href="#">Navbar</a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                    Dropdown link
-                                  </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                    </ul>
+        <header id="header">
+            <nav class="navbar navbar-toggleable-md navbar-shrink fixed-top" id="pagesNav">
+                <div class="container">
+                    <a class="navbar-brand js-scroll-trigger" href="index.html">Início</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                                        Menu <i class="fa fa-bars"></i>
+                                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger active" href="portfolio.html">Portfólio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="depoimentos.html">Depoimentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link js-scroll-trigger" href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-
-            <div class="corTema">
-                <div class="container col-md-12">
-                    <h3>Teste</h3>
-                </div>
-            </div>
         </header>
 
+        <section id="gestaoFinanceira">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="card">
+                        <img class="card-img-top" src="img/gestaoFinanceira.png" alt="Card curso rails">
+                        <div class="card-block">
+                            <h4 class="card-title">Gestão Financeira</h4>
+                            Esse sistema está sendo desenvolvido em Ruby On Rails e tem como objetivo auxiliar os usuários na gestão de suas finanças
+                            pessoais.
+                            </br>O projeto está na etapa de desenvolvimento e logo será colocado em produção.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="controleEstoque">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="card">
+                        <img class="card-img-top" src="img/controleEstoque.png" alt="Card curso rails">
+                        <div class="card-block">
+                            <h4 class="card-title">Controle de Estoque</h4>
+                            Sistema desenvolvido tendo com principal função realizar o controle de estoque de uma empresa que comercializa gelos e bebidas.</br>
+                            O seu funcionamento era da seguinte forma: o</br>
+                            Este não foi um trabalho individual, toda as etapas, desde análise ao desenvolvimento foram realizadas em conjunto com
+                            <a href="https://www.facebook.com/profile.php?id=100012054431509">Eduardo Tomita</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--footer section-->
+        <section class="footer" id="footer">
+            <div class="container col-md-12">
+                <div class="row">
+                    <div class="col-md-2" style="text-align: center; align-self: center;">
+                        <!--<a href="#"><img src="img/logo.png" alt="logo" style="height:30px; width:60px;"/></a>-->
+                        <ai>Leonardo Lucas de Melo © 2017</a>
+                    </div>
+                    <div class="col-md-8" style="text-align: center; align-self: center;">
+                        <p>Lembre-se: o conhecimento é apenas o "meio", o que você produz com ele são seus objetivos. </br><i>"Geração de Valor"</i>                            </p>
+                    </div>
+                    <div class="col-md-2" style="text-align: center; align-self: center;">
+                        <a href='https://www.facebook.com/leonardo.lucasdemelo'><i class="fa fa-facebook fa-3x fa-fw"></i></a>
+                        <a href='https://www.linkedin.com/in/leonardo-lucas-de-melo'><i class="fa fa-linkedin fa-3x fa-fw"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <!--wrapper end-->
 
 
     <!-- JavaScripts -->
     <script src="js/jquery/jquery-3.2.1.js"></script>
+    <script src="js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery/jquery-ui.js"></script>
+    <script src="js/jquery/jquery-ui.min.js"></script>
     <script src="js/tether/tether.min.js"></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/funcoes.js"></script>
 </body>
 
 </html>
