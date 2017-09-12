@@ -1,17 +1,4 @@
-$(document).ready(function () {    
-    $("#telefone").mask("(99) 99999-9999");
-    //$('#dataLimite').val($.now());    
-
-
-    $("#contatoForm").submit(function (event) {
-        if (!validaEmail($("#email").val())) {
-            alert("Informe um email válido!");
-            $("#email").focus();
-            event.preventDefault();
-        }
-
-    });
-
+$(document).ready(function () {        
     $("#depoimentoForm").submit(function (event) {
         if (!validaEmail($("#email").val())) {
             alert("Informe um email válido!");
