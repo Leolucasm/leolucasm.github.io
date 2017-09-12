@@ -18,7 +18,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
         rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">    
     <base="/">
 </head>
 
@@ -50,8 +50,7 @@
                     </div>
                 </div>
             </nav>
-        </header>
-
+        </header>        
 
 
         <section id="contato">
@@ -62,7 +61,7 @@
                     <p class="card-text">Está precisando de algum serviço específico? </br>
                         Entre em contato comigo, ficarei feliz em lhe ajudar :)</p>
                     </br>
-                    <form name="enviarMensagem" id="contatoForm">
+                    <form name="enviarMensagem" id="contatoForm" method="post">
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls">
                                 <label for="nome">Nome</label>
@@ -106,7 +105,7 @@
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls">
                                 <label for "descricao">Descrição</label>
-                                <textarea class="form-control" placeholder="Descrição do Trabalho" id="descricao" required data-validation-required-message="Por favor preencha a descrição do trabalho."></textarea>
+                                <textarea class="form-control" placeholder="Insira uma descrição do projeto" id="descricao" required data-validation-required-message="Por favor preencha a descrição do projeto."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -149,8 +148,10 @@
     <script src="js/jquery/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js"></script>
     <script src="js/tether/tether.min.js"></script>
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>    
+    <script src = "https://smtpjs.com/smtp.js"></script>    
     <script src="js/funcoes.js"></script>
+    <script src="js/envioEmail.js"></script>
 </body>
 
 </html>
