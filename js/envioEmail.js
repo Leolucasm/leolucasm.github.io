@@ -2,7 +2,7 @@ $(document).ready(function () {
 	$("#telefone").mask("(99) 99999-9999");
 	
     $("#contatoForm").submit(function (event) {  
-        event.preventDefault();	                
+        //event.preventDefault();	                
 		if (!validaEmail($("#email").val())) {
             alert("Informe um email válido!");
             $("#email").focus();
@@ -25,7 +25,7 @@ $(document).ready(function () {
             { token: "0ef51d54-88a0-4e44-a09b-6b1720a3540f" });
 
         //Teste redir3
-        //event.preventDefault();	                
+        event.preventDefault();	                
         //$(location).attr('href', 'file:///C:/Users/Rafael/Documents/Arquivos%20Pessoais/portfolio/index.html');	
     });
 	
