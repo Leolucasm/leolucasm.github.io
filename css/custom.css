@@ -161,7 +161,7 @@ button.contact.submit:hover {
 .footer {
     /*background: var(--corPadrao);*/
     background: black;
-    margin-top:120px;
+    /*margin-top:120px;*/
     position:relative
 }
  
@@ -221,6 +221,29 @@ button.contact.submit:hover {
  
 .footer a,.footer a:hover {
     color:#fff;
+}
+
+.content-section {
+    padding-top: 150px;
+    padding-bottom: 150px; }
+
+#contato {
+    margin-top: 10rem;    
+    background-color: var(--corPadrao);
+}
+
+#contato h2 {
+    font-weight:600;
+    font-family:'Raleway';
+    font-size:40px;
+    color:#333;
+    margin:0;
+    padding:5px;
+}
+ 
+#contato h3 {
+    font-size:1em;
+    line-height:1.7;
 }
 
 @media screen and (max-width:768px) {
@@ -304,7 +327,11 @@ button.contact.submit:hover {
         background-color: #222222; }
         #mainNav.navbar-shrink .navbar-brand {
           font-size: 1.25em;
-          padding: 12px 0; } }
+          padding: 12px 0; }
+
+          .content-section {
+            padding-top: 200px;
+            padding-bottom: 200px; } }
 
 #pagesNav {
     background-color: #222222; }
@@ -333,47 +360,3 @@ button.contact.submit:hover {
         text-transform: uppercase; }
         #pagesNav .navbar-nav .nav-item .nav-link.active, #pagesNav .navbar-nav .nav-item .nav-link:hover {
         color: var(--corPadrao);; /*#fed136*/}
-    
-@media (min-width: 992px) {
-    #pagesNav {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-        -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-        transition: padding-top 0.3s, padding-bottom 0.3s;
-        border: none;
-        background-color: transparent; }
-        #pagesNav .navbar-brand {
-        font-size: 1.75em;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s; }
-        #pagesNav .navbar-nav .nav-item .nav-link {
-        padding: 1.1em 1em !important; }
-        #pagesNav.navbar-shrink {
-        padding-top: 0;
-        padding-bottom: 0;
-        background-color: #222222; }
-        #pagesNav.navbar-shrink .navbar-brand {
-            font-size: 1.25em;
-            padding: 12px 0; } }          
-
-/*Depoimentos*/            
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-    img {
-      width: 225px;
-      height: 225px;
-      border: 7px solid white;
-    }
-    h4 {
-      margin-top: 25px;
-      margin-bottom: 0;
-      text-transform: none;
-    }
-    p {
-      margin-top: 0;
-    }
-  }
-  
