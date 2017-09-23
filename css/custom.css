@@ -232,7 +232,15 @@ button.contact.submit:hover {
     background-color: var(--corPadrao);
 }
 
-#contato h2 {
+.contato-heading {
+    padding-bottom:15px;
+    text-align:center;
+    max-width:960px;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+.contato-heading h2 {
     font-weight:600;
     font-family:'Raleway';
     font-size:40px;
@@ -241,7 +249,7 @@ button.contact.submit:hover {
     padding:5px;
 }
  
-#contato h3 {
+.contato-heading h3 {
     font-size:1em;
     line-height:1.7;
 }
